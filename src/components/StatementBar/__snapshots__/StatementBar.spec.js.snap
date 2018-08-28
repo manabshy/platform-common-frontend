@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render correctly 1`] = `
+<section
+  className="no-data-container "
+>
+  <h3>
+    testMessage
+  </h3>
+</section>
+`;
+
+exports[`Should render correctly with no message 1`] = `
+<section
+  className="no-data-container "
+>
+  <h3 />
+</section>
+`;

@@ -1,0 +1,54 @@
+@import 'colours';
+@import 'grid_layout';
+
+.error-control:link, .error-control:visited, .error-control:focus {
+  color: $white;
+  background: $red;
+}
+
+// Bespoke Summary for success
+// Eventually this can be turned into a Component in platform-common
+.success-summary {
+  
+    // success summary has a border on all sides
+    border: 4px solid $green;
+  
+    margin-top: $gutter-half;
+    margin-bottom: $gutter-half;
+  
+    padding: $gutter-half 10px;
+  
+    @include ie-lte(6) {
+      zoom: 1;
+    }
+  
+    // Use the GOV.UK outline focus style
+    &:focus {
+      outline: 3px solid $focus-colour;
+    }
+  
+    .success-summary-heading {
+      margin-top: 0;
+    }
+  
+    p {
+      margin-bottom: 10px;
+    }
+  
+    .success-summary-list {
+      padding-left: 0;
+  
+      li {
+  
+        @include media(tablet) {
+          margin-bottom: 5px;
+        }
+      }
+  
+      a {
+        color: $error-colour;
+        font-weight: bold;
+        text-decoration: underline;
+      }
+    }
+  }

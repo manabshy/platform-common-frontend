@@ -1,0 +1,34 @@
+@import "colours";
+
+.pcf-radio-button {
+  label.small-label {
+    padding: 0%;
+
+    &:before {
+      top: 4px;
+      left: 4px;
+      width: 12px;
+      height: 12px;
+    }
+    &:after {
+      border: 4px solid;
+      top: 8px;
+      left: 8px;
+    }
+  }
+
+  .small-input {
+    width: 24px;
+    height: 24px;
+  }
+
+  .small-wrapper {
+    padding-left: 25px;
+  }
+
+  & [type="radio"] + label::before {
+    &:focus {
+      box-shadow: 0 0 0 3px $yellow;
+    }
+  }
+}

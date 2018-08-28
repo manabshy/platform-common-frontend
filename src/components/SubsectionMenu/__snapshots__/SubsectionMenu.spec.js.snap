@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render correctly 1`] = `
+<button
+  className="subsectionBtn CCactive undefined"
+  id="test"
+  onClick={[MockFunction]}
+  title="test"
+>
+  <span
+    className="button-title undefined"
+  >
+    test
+  </span>
+  <i
+    className="fa fa-angle-right arrow undefined"
+  />
+   
+</button>
+`;
+
+exports[`Should render without certain props 1`] = `
+<button
+  className="subsectionBtn CCactive undefined"
+  id="test"
+  onClick={[Function]}
+  title="test"
+>
+  <span
+    className="button-title undefined"
+  >
+    test
+  </span>
+  <i
+    className="fa fa-angle-right arrow undefined"
+  />
+   
+</button>
+`;

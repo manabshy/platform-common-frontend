@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render correctly 1`] = `
+<div
+  className="count-card "
+>
+  <div>
+    <input
+      autoComplete="off"
+      id="test"
+      name="severity"
+      onChange={[Function]}
+      type="radio"
+    />
+    <label
+      htmlFor="test"
+    >
+      <span
+        className="large-number "
+        style={
+          Object {
+            "color": "#cccccc",
+          }
+        }
+      >
+        1
+      </span>
+      <span
+        className="label "
+        style={
+          Object {
+            "background": "#cccccc",
+            "borderColor": "#cccccc",
+            "color": "white",
+          }
+        }
+      >
+        test
+      </span>
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Should render correctly with missing props 1`] = `
+<div
+  className="count-card "
+>
+  <Link
+    replace={false}
+    style={
+      Object {
+        "textDecoration": "none",
+      }
+    }
+    to="/test"
+  >
+    <div>
+      <input
+        autoComplete="off"
+        id="test"
+        name="severity"
+        onChange={[Function]}
+        type="radio"
+      />
+      <label
+        htmlFor="test"
+      >
+        <span
+          className="large-number "
+          style={
+            Object {
+              "color": "#cccccc",
+            }
+          }
+        >
+          1
+        </span>
+        <span
+          className="label "
+          style={
+            Object {
+              "background": "#cccccc",
+              "borderColor": "#cccccc",
+              "color": "white",
+            }
+          }
+        >
+          test
+        </span>
+      </label>
+    </div>
+     
+  </Link>
+</div>
+`;

@@ -1,0 +1,10 @@
+// GDS Template
+@import "~govuk_template_jinja/assets/stylesheets/govuk-template.css";
+@import "~govuk_template_jinja/assets/stylesheets/fonts.css";
+
+// Storybook Overrides
+html,
+body {
+  background-color: white;
+  padding: 1rem 1rem;
+}

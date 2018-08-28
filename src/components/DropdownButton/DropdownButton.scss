@@ -1,0 +1,34 @@
+@import "colours";
+
+.dropdown {
+  .dropdown-button {
+    background: $grey-4;
+    color: black;
+    border: solid 1px $grey-3;
+    box-shadow: none;
+  }
+  .dropdown-content {
+    background-color: white;
+    border: solid 1px $grey-3;
+    color: black;
+    list-style: none;
+    line-height: 36px;
+  }
+  .dropdown-list {
+    padding: 0 12px;
+    cursor: pointer;
+    &:hover {
+      text-decoration: none;
+      color: black;
+      background: $focus-colour;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    //mobile width
+    .dropdown {
+      text-align: center;
+      width: 100%;
+    }
+  }
+}

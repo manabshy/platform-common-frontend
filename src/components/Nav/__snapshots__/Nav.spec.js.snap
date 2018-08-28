@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`adds the display-none class when display is false 1`] = `
+<nav
+  className="Nav display-none"
+  id="proposition-menu"
+>
+  <ul
+    className=""
+    id="proposition-links"
+  >
+    <li
+      key="Test Link 1"
+    >
+      <Link
+        onClick={[Function]}
+        replace={false}
+        to="/test1"
+      >
+        Test Link 1
+      </Link>
+    </li>
+    <li
+      key="Test Link 2"
+    >
+      <Link
+        onClick={[Function]}
+        replace={false}
+        to="/test2"
+      >
+        Test Link 2
+      </Link>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`adds the show-mobile-menu-links class when display is true 1`] = `
+<nav
+  className="Nav"
+  id="proposition-menu"
+>
+  <ul
+    className="show-mobile-menu-links"
+    id="proposition-links"
+  >
+    <li
+      key="Test Link 1"
+    >
+      <Link
+        onClick={[Function]}
+        replace={false}
+        to="/test1"
+      >
+        Test Link 1
+      </Link>
+    </li>
+    <li
+      key="Test Link 2"
+    >
+      <Link
+        onClick={[Function]}
+        replace={false}
+        to="/test2"
+      >
+        Test Link 2
+      </Link>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`does not add the display-none class when display is true 1`] = `
+<nav
+  className="Nav"
+  id="proposition-menu"
+>
+  <ul
+    className="show-mobile-menu-links"
+    id="proposition-links"
+  >
+    <li
+      key="Test Link 1"
+    >
+      <Link
+        onClick={[Function]}
+        replace={false}
+        to="/test1"
+      >
+        Test Link 1
+      </Link>
+    </li>
+    <li
+      key="Test Link 2"
+    >
+      <Link
+        onClick={[Function]}
+        replace={false}
+        to="/test2"
+      >
+        Test Link 2
+      </Link>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`renders correctly with broken navigation data 1`] = `
+<nav
+  className="Nav"
+  id="proposition-menu"
+>
+  <ul
+    className="show-mobile-menu-links"
+    id="proposition-links"
+  />
+</nav>
+`;
+
+exports[`renders correctly with empty navigation data 1`] = `
+<nav
+  className="Nav"
+  id="proposition-menu"
+>
+  <ul
+    className="show-mobile-menu-links"
+    id="proposition-links"
+  />
+</nav>
+`;
+
+exports[`renders correctly with some navigation data 1`] = `
+<nav
+  className="Nav"
+  id="proposition-menu"
+>
+  <ul
+    className="show-mobile-menu-links"
+    id="proposition-links"
+  >
+    <li
+      key="Test Link 1"
+    >
+      <Link
+        onClick={[Function]}
+        replace={false}
+        to="/test1"
+      >
+        Test Link 1
+      </Link>
+    </li>
+    <li
+      key="Test Link 2"
+    >
+      <Link
+        onClick={[Function]}
+        replace={false}
+        to="/test2"
+      >
+        Test Link 2
+      </Link>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`renders correctly with undefined navigation data 1`] = `
+<nav
+  className="Nav"
+  id="proposition-menu"
+>
+  <ul
+    className="show-mobile-menu-links"
+    id="proposition-links"
+  />
+</nav>
+`;

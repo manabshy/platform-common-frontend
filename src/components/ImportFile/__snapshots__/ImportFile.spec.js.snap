@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render correctly 1`] = `
+<t
+  className="dropzone"
+  disableClick={false}
+  disablePreview={false}
+  disabled={false}
+  id="test"
+  inputProps={Object {}}
+  maxSize={1000}
+  minSize={100}
+  multiple={true}
+  onDrop={[MockFunction]}
+  onDropAccepted={[MockFunction]}
+  onDropRejected={[MockFunction]}
+  onFileDialogCancel={[MockFunction]}
+  preventDropOnDocument={true}
+>
+  <div>
+    <div>
+      Drag and drop a .txt file here
+      <br />
+      Alternatively 
+      <a
+        className="link"
+      >
+        browse
+      </a>
+       for a .txt file
+    </div>
+  </div>
+</t>
+`;
+
+exports[`Should render correctly with no children 1`] = `
+<t
+  className="dropzone"
+  disableClick={false}
+  disablePreview={false}
+  disabled={false}
+  id="test"
+  inputProps={Object {}}
+  maxSize={Infinity}
+  minSize={0}
+  multiple={false}
+  preventDropOnDocument={true}
+>
+  <div />
+</t>
+`;

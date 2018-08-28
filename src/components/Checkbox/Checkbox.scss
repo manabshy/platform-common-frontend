@@ -1,0 +1,61 @@
+@import "colours";
+
+.pcf-checkbox {
+  &.input-group-checkbox {
+    position: relative;
+    padding-left: 1.6em;
+  }
+
+  .checkbox-label {
+    padding-left: 0.8em;
+
+    span {
+      display: inline-block;
+      margin-top: 0.4em;
+      vertical-align: middle;
+    }
+
+    &:before {
+      content: "";
+      width: 1.6em;
+      height: 1.6em;
+      border: 2px solid;
+      background: transparent;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+
+  .checkbox-input {
+    position: absolute;
+    cursor: pointer;
+    left: 2px;
+    top: 2px;
+    width: 1.6em;
+    height: 1.6em;
+    z-index: 1;
+    margin: 0;
+    zoom: 1;
+    filter: alpha(opacity=0);
+    opacity: 0;
+
+    &:focus + .checkbox-label:before {
+      box-shadow: 0 0 0 3px $yellow;
+    }
+
+    &:checked + .checkbox-label:after {
+      content: "";
+      border: solid;
+      border-width: 0 0 0.25em 0.25em;
+      background: transparent;
+      width: 0.8em;
+      height: 0.3em;
+      position: absolute;
+      top: 0.5em;
+      left: 0.35em;
+      transform: rotate(-45deg);
+      zoom: 1;
+    }
+  }
+}

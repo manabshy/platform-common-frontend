@@ -1,0 +1,39 @@
+.pcf-search-box {
+  position: relative;
+  .search-box-icon-wrapper {
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    width: 31px;
+    height: 100%;
+    background-color: #094993;
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .search-box-icon {
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 0px;
+  }
+
+  @media (min-width: 641px) {
+    .search-box-icon-wrapper {
+      width: 36px;
+    }
+  }
+
+  .search-box-input {
+    background-color: rgb(246, 246, 246);
+    padding: 5px 10px 2px;
+    width: calc(100% - 58px);
+  }
+
+  .search-box-extension {
+    position: relative;
+  }
+}

@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with data 1`] = `
+<div>
+  <NCSCLogo />
+  <div>
+    <h1
+      className="heading-xlarge"
+      id="lead-heading"
+    >
+      Notifications
+       
+      (2)
+    </h1>
+  </div>
+  <div
+    className="notifications-container"
+  >
+    <div
+      className="grid-row"
+    >
+      <div
+        className="column-one-quarter"
+      >
+        <Box
+          content={
+            <List
+              items={
+                Array [
+                  <div
+                    className="notification-filter-item"
+                    onClick={[Function]}
+                  >
+                    <input
+                      defaultChecked={0}
+                      id="domaindiscovery"
+                      name="domaindiscovery"
+                      type="checkbox"
+                      value="domaindiscovery"
+                    />
+                    <label
+                      className="notification-filter unread-filter"
+                      htmlFor="nationality-1"
+                    >
+                      <span
+                        className="service-filter-name"
+                        title="domaindiscovery"
+                      >
+                        domaindiscovery (1)
+                      </span>
+                    </label>
+                  </div>,
+                  <div
+                    className="notification-filter-item"
+                    onClick={[Function]}
+                  >
+                    <input
+                      defaultChecked={0}
+                      id="mailcheck"
+                      name="mailcheck"
+                      type="checkbox"
+                      value="mailcheck"
+                    />
+                    <label
+                      className="notification-filter"
+                      htmlFor="nationality-1"
+                    >
+                      <span
+                        className="service-filter-name"
+                        title="mailcheck"
+                      >
+                        mailcheck
+                      </span>
+                    </label>
+                  </div>,
+                  <div
+                    className="notification-filter-item"
+                    onClick={[Function]}
+                  >
+                    <input
+                      defaultChecked={0}
+                      id="webcheck"
+                      name="webcheck"
+                      type="checkbox"
+                      value="webcheck"
+                    />
+                    <label
+                      className="notification-filter unread-filter"
+                      htmlFor="nationality-1"
+                    >
+                      <span
+                        className="service-filter-name"
+                        title="webcheck"
+                      >
+                        webcheck (1)
+                      </span>
+                    </label>
+                  </div>,
+                ]
+              }
+            />
+          }
+          header={
+            <span>
+              Services
+               
+              <a
+                className="clear-filter pull-right"
+                href="#"
+                onClick={[Function]}
+              >
+                clear all
+              </a>
+            </span>
+          }
+        />
+      </div>
+      <div
+        className="column-three-quarters"
+      >
+        <PlatformNotificationList
+          className=""
+          customStyles={Object {}}
+          data={
+            Array [
+              Object {
+                "created": "2018-06-07 15:52:31",
+                "data": "https://www.urlto.service.orgname.gov.uk",
+                "id": "1",
+                "priority": "informational",
+                "service": "webcheck",
+                "subject": "New urgent finding detected",
+              },
+              Object {
+                "created": "2018-06-07 19:55:31",
+                "data": "https://www.urltoother.service.orgname.gov.uk",
+                "id": "2",
+                "priority": "informational",
+                "read": "2018-06-07 19:52:31",
+                "service": "mailcheck",
+                "subject": "New malicious pattern detected",
+              },
+              Object {
+                "created": "2018-06-07 19:55:31",
+                "data": "https://www.govdomain1.service.orgname.gov.uk",
+                "id": "3",
+                "priority": "informational",
+                "service": "domaindiscovery",
+                "subject": "New gov domain detected",
+              },
+              Object {
+                "created": "2018-06-07 19:55:31",
+                "data": "https://www.govdomain2.service.orgname.gov.uk",
+                "id": "4",
+                "priority": "informational",
+                "read": "2018-06-07 19:52:31",
+                "service": "domaindiscovery",
+                "subject": "New gov domain  detected",
+              },
+              Object {
+                "created": "2018-06-07 15:52:31",
+                "data": "https://www.urlto.service.orgname.gov.uk",
+                "id": "5",
+                "priority": "informational",
+                "read": "2018-06-07 19:52:31",
+                "service": "webcheck",
+                "subject": "New urgent finding detected",
+              },
+            ]
+          }
+          targetNotification={Object {}}
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders correctly with no data 1`] = `
+<div>
+  <NCSCLogo />
+  <div>
+    <h1
+      className="heading-xlarge"
+      id="lead-heading"
+    >
+      Notifications
+       
+      (0)
+    </h1>
+  </div>
+  <div
+    className="notifications-container"
+  >
+    <div
+      className="grid-row"
+    >
+      <div
+        className="column-three-quarters"
+      >
+        <PlatformNotificationList
+          className=""
+          customStyles={Object {}}
+          data={Array []}
+          targetNotification={Object {}}
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

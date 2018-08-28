@@ -1,0 +1,233 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders body if \`tableBody\` data is supplied 1`] = `
+<table
+  className=""
+>
+  <tbody>
+    <tr
+      key="row-0"
+    >
+      <td
+        className=""
+        key="cell-0"
+      >
+        <span>
+          <input
+            id="row1"
+            type="checkbox"
+          />
+          <label
+            className="visually-hidden"
+            htmlFor="row1"
+          >
+            Select row 1
+          </label>
+        </span>
+      </td>
+      <td
+        className=""
+        key="cell-1"
+      >
+        Text only
+      </td>
+      <td
+        className=""
+        key="cell-2"
+      >
+        <span>
+          Text in html
+        </span>
+      </td>
+      <td
+        className=""
+        key="cell-3"
+      />
+    </tr>
+    <tr
+      key="row-1"
+    >
+      <td
+        className=""
+        key="cell-0"
+      >
+        <span>
+          <input
+            id="row2"
+            type="checkbox"
+          />
+          <label
+            className="visually-hidden"
+            htmlFor="row2"
+          >
+            Select row 2
+          </label>
+        </span>
+      </td>
+      <td
+        className=""
+        key="cell-1"
+      >
+        Text and 123
+      </td>
+      <td
+        className=""
+        key="cell-2"
+      >
+        <p>
+          Text in html
+        </p>
+      </td>
+      <td
+        className=""
+        key="cell-3"
+      >
+        This isn't empty
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`renders caption if \`tableCaption\` string is supplied 1`] = `
+<table
+  className=""
+>
+  <caption
+    className="heading-small"
+  >
+    Table caption
+  </caption>
+  <tbody>
+    <tr
+      key="row-0"
+    >
+      <td
+        className=""
+        key="cell-0"
+      >
+        <span>
+          <input
+            id="row1"
+            type="checkbox"
+          />
+          <label
+            className="visually-hidden"
+            htmlFor="row1"
+          >
+            Select row 1
+          </label>
+        </span>
+      </td>
+      <td
+        className=""
+        key="cell-1"
+      >
+        Text only
+      </td>
+      <td
+        className=""
+        key="cell-2"
+      >
+        <span>
+          Text in html
+        </span>
+      </td>
+      <td
+        className=""
+        key="cell-3"
+      />
+    </tr>
+    <tr
+      key="row-1"
+    >
+      <td
+        className=""
+        key="cell-0"
+      >
+        <span>
+          <input
+            id="row2"
+            type="checkbox"
+          />
+          <label
+            className="visually-hidden"
+            htmlFor="row2"
+          >
+            Select row 2
+          </label>
+        </span>
+      </td>
+      <td
+        className=""
+        key="cell-1"
+      >
+        Text and 123
+      </td>
+      <td
+        className=""
+        key="cell-2"
+      >
+        <p>
+          Text in html
+        </p>
+      </td>
+      <td
+        className=""
+        key="cell-3"
+      >
+        This isn't empty
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`renders heading if \`tableHeading\` data is supplied 1`] = `
+<table
+  className=""
+>
+  <thead>
+    <tr>
+      <th
+        className=""
+        key="th-0"
+      >
+        <span>
+          <input
+            id="select-all"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <label
+            className="visually-hidden"
+            htmlFor="select-all"
+          >
+            Select all
+          </label>
+        </span>
+      </th>
+      <th
+        className=""
+        key="th-1"
+      >
+        Text
+      </th>
+      <th
+        className=""
+        key="th-2"
+      >
+        Mixed content
+      </th>
+      <th
+        className=""
+        key="th-3"
+      >
+        Maybe empty
+      </th>
+    </tr>
+  </thead>
+</table>
+`;
+
+exports[`renders nothing with no \`tableHeading\` data and no \`tableBody\` data 1`] = `""`;

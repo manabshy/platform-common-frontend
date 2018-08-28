@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render correctly 1`] = `
+<div
+  className="breadcrumbs"
+>
+  <ol>
+    <li
+      key="0"
+    >
+      <Link
+        replace={false}
+        to="/"
+      >
+        TestHomepage
+      </Link>
+    </li>
+    <li
+      key="1"
+    >
+      <Link
+        replace={false}
+        to="/test1"
+      >
+        TestPage1
+      </Link>
+    </li>
+    <li
+      key="2"
+    >
+      <Link
+        replace={false}
+        to="/test2"
+      >
+        TestPage2
+      </Link>
+    </li>
+    <li
+      key="3"
+    >
+      TestPage3
+    </li>
+  </ol>
+</div>
+`;
+
+exports[`Should render correctly with 3 breadcrumbs 1`] = `
+<div
+  className="breadcrumbs"
+>
+  <ol>
+    <li
+      key="0"
+    >
+      <Link
+        replace={false}
+        to="/"
+      >
+        TestHomepage
+      </Link>
+    </li>
+    <li
+      key="1"
+    >
+      <Link
+        replace={false}
+        to="/test1"
+      >
+        TestPage1
+      </Link>
+    </li>
+    <li
+      key="2"
+    >
+      <Link
+        replace={false}
+        to="/test2"
+      >
+        TestPage2
+      </Link>
+    </li>
+  </ol>
+</div>
+`;
+
+exports[`Should render correctly with no links 1`] = `
+<div
+  className="breadcrumbs"
+>
+  <ol>
+    <li
+      key="0"
+    >
+      TestHomepage
+    </li>
+  </ol>
+</div>
+`;

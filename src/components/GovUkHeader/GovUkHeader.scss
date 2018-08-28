@@ -1,0 +1,139 @@
+@import "../../static/styles/constants/layout";
+@import "../../static/styles/constants/colors";
+
+.GovUkHeader {
+  &#global-header {
+    .header-wrapper {
+      max-width: $content-max-width;
+      position: relative;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 0px;
+      min-height: 45px;
+      .header-global {
+        .header-logo {
+          .content {
+            margin-left: 0px;
+          }
+          width: 100%;
+          img {
+            padding-right: 5px;
+          }
+        }
+      }
+    }
+  }
+
+  .header-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2.4rem;
+    font-weight: bold;
+    @media (min-width: $view-breakpoint-3 + 1) {
+      max-width: 300px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: inline-block;
+      vertical-align: bottom;
+    }
+    @media (min-width: $view-breakpoint-2) {
+      max-width: 350px;
+    }
+  }
+
+  .header-global {
+    float: left;
+
+    img {
+      display: inline;
+    }
+  }
+
+  .header-menu-link {
+    font-family: nta, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 400;
+    text-transform: none;
+    color: #fff;
+    display: block;
+    float: right;
+    text-decoration: none;
+    padding-top: 8px;
+    margin-bottom: 0.3rem;
+    cursor: pointer;
+
+    &.up:after {
+      content: "\f0d8";
+      font-family: FontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      text-decoration: inherit;
+      /*--adjust as necessary--*/
+      color: #fff;
+      font-size: 16px;
+      padding-left: 5px;
+    }
+
+    &.down:after {
+      content: "\f0d7";
+      font-family: FontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      text-decoration: inherit;
+      /*--adjust as necessary--*/
+      color: #fff;
+      font-size: 16px;
+      padding-left: 5px;
+    }
+  }
+
+  .header-proposition {
+    #proposition-menu {
+      margin-top: 0px !important;
+    }
+
+    #proposition-links {
+      margin-top: 0px !important;
+    }
+  }
+
+  @media (min-width: $view-breakpoint-3 + 1) {
+    .header-proposition {
+      width: 66.66%;
+      float: right;
+    }
+    .header-menu-link {
+      display: none;
+    }
+  }
+
+  @media (max-width: $view-breakpoint-3) {
+    .header-proposition {
+      clear: left;
+    }
+    .header-padding-bottom-45 {
+      padding-bottom: 45px;
+    }
+  }
+
+  @media (max-width: $view-breakpoint-4) {
+    $header-link-height: 14px;
+    .header-link {
+      font-size: $header-link-height;
+    }
+    .header-menu-link {
+      font-size: $header-link-height;
+      padding-top: 3px;
+
+      &.up:after {
+        font-size: $header-link-height;
+      }
+
+      &.down:after {
+        font-size: $header-link-height;
+      }
+    }
+  }
+}

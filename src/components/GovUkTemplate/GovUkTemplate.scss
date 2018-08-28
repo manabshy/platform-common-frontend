@@ -1,0 +1,11 @@
+@import '../../static/styles/constants/layout';
+
+.GovUkTemplate {
+    min-width: $content-min-width;
+    
+    #global-header-bar {
+        max-width: $content-max-width;
+        margin: 0 auto;
+
+    }
+}

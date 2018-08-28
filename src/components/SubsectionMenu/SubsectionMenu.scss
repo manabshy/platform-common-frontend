@@ -1,0 +1,49 @@
+@import '../../static/styles/constants/layout';
+
+.subsectionBtn {
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    background-color: #FFFFFF;
+    border: none;
+    color: #005ea4;
+    font-size: 16px;
+    cursor: pointer;
+
+    @media (max-width: $view-breakpoint-4) {
+        width: 120px;
+    }
+}
+
+.subsectionBtn:not(.CCactive):hover {
+    background-color: #dee0e2;
+    color: #005ea4;
+}
+
+.CCactive {
+    background-color: #005ea4;
+    color: #FFFFFF;
+}
+
+.arrow {
+    float: right;
+    padding-right: 10px;
+    padding-top: 2px;
+    font-weight: bold;
+}
+
+.hide-arrow {
+    display: none;
+}
+
+.button-title {
+    float: left;
+    padding-left: 10px;
+    font-size: 16px;
+
+    @media (max-width: $view-breakpoint-4) {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 90px;
+    }
+}

@@ -1,0 +1,24 @@
+@import "../../static/styles/constants/index";
+
+.pcf-box {
+  border: 2px solid $grey-3;
+
+  @media (max-width: $view-breakpoint-4) {
+    margin-bottom: 1rem;
+  }
+
+  .box-header {
+    background: $grey-3;
+    padding: 0.6rem 0.9rem;
+
+    .heading-small {
+      margin-top: 0.3rem;
+      margin-bottom: 0;
+    }
+  }
+
+  .box-content {
+    padding: 0.3rem 0.9rem;
+    font-size: 1.9rem;
+  }
+}

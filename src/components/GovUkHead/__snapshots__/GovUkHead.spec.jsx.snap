@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GovUkHead should render correctly 1`] = `
+<HelmetWrapper
+  defer={true}
+  encodeSpecialCharacters={true}
+  links={
+    Array [
+      Object {
+        "color": "#0b0c0c",
+        "href": "test-file-stub",
+        "rel": "mask-icon",
+      },
+    ]
+  }
+  meta={
+    Array [
+      Object {
+        "charset": "utf-8",
+      },
+      Object {
+        "content": "width=device-width, initial-scale=1",
+        "name": "viewport",
+      },
+    ]
+  }
+  title="Home Page"
+/>
+`;

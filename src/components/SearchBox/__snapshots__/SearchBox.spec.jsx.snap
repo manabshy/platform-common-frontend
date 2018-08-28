@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with defaults 1`] = `
+<div
+  className="input-group pcf-search-box"
+>
+  <input
+    className="form-control search-box-input"
+    minLength={3}
+    name="search-box"
+    onChange={[Function]}
+    onKeyPress={[Function]}
+    placeholder="Search"
+    type="search"
+  />
+  <button
+    className="search-box-icon-wrapper"
+    onClick={[Function]}
+  >
+    <i
+      className="fa fa-search search-box-icon"
+    />
+  </button>
+</div>
+`;

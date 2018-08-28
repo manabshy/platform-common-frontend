@@ -1,0 +1,16 @@
+@import "../../static/styles/constants/colors";
+
+.pcList {
+  list-style: none;
+  li {
+    list-style: none;
+    padding: 0.63158em 0.63158em 0.47368em 0;
+    text-align: left;
+    border-bottom: 1px solid #bfc1c3;
+
+    &:last-child {
+      border-bottom: none;
+    }
+    font-size: 1.6rem;
+  }
+}

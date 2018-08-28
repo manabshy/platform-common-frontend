@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when no members are found 1`] = `
+<div
+  className="notifications-list"
+  style={Object {}}
+>
+  <InformationModal
+    content={
+      <Spinner
+        includeWrapper={true}
+        size="1em"
+        wrapperText="Loading data..."
+      />
+    }
+    header="Loading Notification..."
+    isOpen={false}
+    modalBodyID="notification-modal"
+    onCloseModal={[Function]}
+  />
+  <table
+    className="notifications-list-table"
+  >
+    <thead>
+      <tr>
+        <th
+          key="subject"
+        >
+          Subject
+        </th>
+        <th
+          className="content-right"
+          key="service"
+        >
+          Service
+        </th>
+        <th
+          className="note-date content-right"
+          key="date"
+        >
+          Created
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        id="no-data-message"
+        key="no-notifications"
+      >
+        <td
+          colSpan={3}
+        >
+          No notifications found
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`renders correctly with group data 1`] = `
+<div
+  className="notifications-list"
+  style={Object {}}
+>
+  <InformationModal
+    content={
+      <Spinner
+        includeWrapper={true}
+        size="1em"
+        wrapperText="Loading data..."
+      />
+    }
+    header="Loading Notification..."
+    isOpen={false}
+    modalBodyID="notification-modal"
+    onCloseModal={[Function]}
+  />
+  <table
+    className="notifications-list-table"
+  >
+    <thead>
+      <tr>
+        <th
+          key="subject"
+        >
+          Subject
+        </th>
+        <th
+          className="content-right"
+          key="service"
+        >
+          Service
+        </th>
+        <th
+          className="note-date content-right"
+          key="date"
+        >
+          Created
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        className="notification read"
+        key="notification-1"
+      >
+        <td
+          className="notification-list-item-subject"
+        >
+          <a
+            href="#"
+            onClick={[Function]}
+          >
+            New urgent finding detected
+          </a>
+        </td>
+        <td
+          className="notification-service-item-name content-right"
+        >
+          webcheck
+        </td>
+        <td
+          className="note-date content-right"
+        >
+          17 July 2018 17:48
+        </td>
+      </tr>
+      <tr
+        className="notification read"
+        key="notification-2"
+      >
+        <td
+          className="notification-list-item-subject"
+        >
+          <a
+            href="#"
+            onClick={[Function]}
+          >
+            New malicious pattern detected
+          </a>
+        </td>
+        <td
+          className="notification-service-item-name content-right"
+        >
+          mailcheck
+        </td>
+        <td
+          className="note-date content-right"
+        >
+          16 July 2018 17:48
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

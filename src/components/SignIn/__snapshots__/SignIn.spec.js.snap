@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sign in should render with sign in 1`] = `
+<div
+  className="display-none login"
+>
+  <div
+    className="details"
+  >
+    <a
+      className="sign-link"
+      onClick={[Function]}
+    >
+      Register
+    </a>
+    <a
+      className="sign-link out"
+      onClick={[Function]}
+    >
+      Sign in
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Sign in should render with sign out 1`] = `
+<div
+  className="display-none login"
+>
+  <div
+    className="details"
+  >
+    <span
+      id="email"
+    >
+      fake.name@digital.ndr.cesg.gov.uk
+    </span>
+    <a
+      className="sign-link out"
+      onClick={[Function]}
+    >
+      Sign out
+    </a>
+  </div>
+</div>
+`;

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render correctly with all props 1`] = `
+<div
+  className="pcf-highlighted-block "
+  style={
+    Object {
+      "backgroundColor": "blue",
+      "borderLeft": "10px solid red",
+    }
+  }
+>
+  <span>
+    Testing text displayed in highlighted block
+  </span>
+</div>
+`;
+
+exports[`Should render correctly with no props 1`] = `
+<div
+  className="pcf-highlighted-block "
+  style={
+    Object {
+      "backgroundColor": "#edf7ff",
+      "borderLeft": "10px solid #005ea4",
+    }
+  }
+>
+  <span>
+    Testing text displayed in highlighted block
+  </span>
+</div>
+`;

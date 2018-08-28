@@ -1,0 +1,301 @@
+[
+    {
+        "name": "$text-colour",
+        "color": {
+            "r": 11,
+            "g": 12,
+            "b": 12,
+            "a": 1,
+            "color-hex": "#0B0C0C 100%",
+            "argb-hex": "#FF0B0C0C",
+            "css-rgba": "rgba(11,12,12,1)",
+            "ui-color": "(r:0.04 g:0.05 b:0.05 a:1.00)"
+        }
+    },
+    {
+        "name": "$border-colour",
+        "color": {
+            "r": 191,
+            "g": 193,
+            "b": 195,
+            "a": 1,
+            "color-hex": "#BFC1C3 100%",
+            "argb-hex": "#FFBFC1C3",
+            "css-rgba": "rgba(191,193,195,1)",
+            "ui-color": "(r:0.75 g:0.76 b:0.76 a:1.00)"
+        }
+    },
+    {
+        "name": "$secondary-text-colour",
+        "color": {
+            "r": 111,
+            "g": 119,
+            "b": 123,
+            "a": 1,
+            "color-hex": "#6F777B 100%",
+            "argb-hex": "#FF6F777B",
+            "css-rgba": "rgba(111,119,123,1)",
+            "ui-color": "(r:0.44 g:0.47 b:0.48 a:1.00)"
+        }
+    },
+    {
+        "name": "$link-hover-colour",
+        "color": {
+            "r": 43,
+            "g": 140,
+            "b": 196,
+            "a": 1,
+            "color-hex": "#2B8CC4 100%",
+            "argb-hex": "#FF2B8CC4",
+            "css-rgba": "rgba(43,140,196,1)",
+            "ui-color": "(r:0.17 g:0.55 b:0.77 a:1.00)"
+        }
+    },
+    {
+        "name": "$panel-colour",
+        "color": {
+            "r": 222,
+            "g": 224,
+            "b": 226,
+            "a": 1,
+            "color-hex": "#DEE0E2 100%",
+            "argb-hex": "#FFDEE0E2",
+            "css-rgba": "rgba(222,224,226,1)",
+            "ui-color": "(r:0.87 g:0.88 b:0.89 a:1.00)"
+        }
+    },
+    {
+        "name": "$focus-colour",
+        "color": {
+            "r": 255,
+            "g": 191,
+            "b": 71,
+            "a": 1,
+            "color-hex": "#FFBF47 100%",
+            "argb-hex": "#FFFFBF47",
+            "css-rgba": "rgba(255,191,71,1)",
+            "ui-color": "(r:1.00 g:0.75 b:0.28 a:1.00)"
+        }
+    },
+    {
+        "name": "$page-colour",
+        "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1,
+            "color-hex": "#FFFFFF 100%",
+            "argb-hex": "#FFFFFFFF",
+            "css-rgba": "rgba(255,255,255,1)",
+            "ui-color": "(r:1.00 g:1.00 b:1.00 a:1.00)"
+        }
+    },
+    {
+        "name": "$link-visited-colour",
+        "color": {
+            "r": 76,
+            "g": 44,
+            "b": 146,
+            "a": 1,
+            "color-hex": "#4C2C92 100%",
+            "argb-hex": "#FF4C2C92",
+            "css-rgba": "rgba(76,44,146,1)",
+            "ui-color": "(r:0.30 g:0.17 b:0.57 a:1.00)"
+        }
+    },
+    {
+        "name": "$highlight-colour",
+        "color": {
+            "r": 248,
+            "g": 248,
+            "b": 248,
+            "a": 1,
+            "color-hex": "#F8F8F8 100%",
+            "argb-hex": "#FFF8F8F8",
+            "css-rgba": "rgba(248,248,248,1)",
+            "ui-color": "(r:0.97 g:0.97 b:0.97 a:1.00)"
+        }
+    },
+    {
+        "name": "$purple",
+        "color": {
+            "r": 46,
+            "g": 53,
+            "b": 139,
+            "a": 1,
+            "color-hex": "#2E358B 100%",
+            "argb-hex": "#FF2E358B",
+            "css-rgba": "rgba(46,53,139,1)",
+            "ui-color": "(r:0.18 g:0.21 b:0.55 a:1.00)"
+        }
+    },
+    {
+        "name": "$pink",
+        "color": {
+            "r": 213,
+            "g": 56,
+            "b": 128,
+            "a": 1,
+            "color-hex": "#D53880 100%",
+            "argb-hex": "#FFD53880",
+            "css-rgba": "rgba(213,56,128,1)",
+            "ui-color": "(r:0.84 g:0.22 b:0.50 a:1.00)"
+        }
+    },
+    {
+        "name": "$mellow-red",
+        "color": {
+            "r": 223,
+            "g": 48,
+            "b": 52,
+            "a": 1,
+            "color-hex": "#DF3034 100%",
+            "argb-hex": "#FFDF3034",
+            "css-rgba": "rgba(223,48,52,1)",
+            "ui-color": "(r:0.87 g:0.19 b:0.20 a:1.00)"
+        }
+    },
+    {
+        "name": "$turquoise",
+        "color": {
+            "r": 40,
+            "g": 161,
+            "b": 151,
+            "a": 1,
+            "color-hex": "#28A197 100%",
+            "argb-hex": "#FF28A197",
+            "css-rgba": "rgba(40,161,151,1)",
+            "ui-color": "(r:0.16 g:0.63 b:0.59 a:1.00)"
+        }
+    },
+    {
+        "name": "$mauve",
+        "color": {
+            "r": 111,
+            "g": 114,
+            "b": 175,
+            "a": 1,
+            "color-hex": "#6F72AF 100%",
+            "argb-hex": "#FF6F72AF",
+            "css-rgba": "rgba(111,114,175,1)",
+            "ui-color": "(r:0.44 g:0.45 b:0.69 a:1.00)"
+        }
+    },
+    {
+        "name": "$baby-pink",
+        "color": {
+            "r": 244,
+            "g": 153,
+            "b": 190,
+            "a": 1,
+            "color-hex": "#F499BE 100%",
+            "argb-hex": "#FFF499BE",
+            "css-rgba": "rgba(244,153,190,1)",
+            "ui-color": "(r:0.96 g:0.60 b:0.75 a:1.00)"
+        }
+    },
+    {
+        "name": "$orange",
+        "color": {
+            "r": 244,
+            "g": 119,
+            "b": 56,
+            "a": 1,
+            "color-hex": "#F47738 100%",
+            "argb-hex": "#FFF47738",
+            "css-rgba": "rgba(244,119,56,1)",
+            "ui-color": "(r:0.96 g:0.47 b:0.22 a:1.00)"
+        }
+    },
+    {
+        "name": "$fuchsia",
+        "color": {
+            "r": 145,
+            "g": 43,
+            "b": 136,
+            "a": 1,
+            "color-hex": "#912B88 100%",
+            "argb-hex": "#FF912B88",
+            "css-rgba": "rgba(145,43,136,1)",
+            "ui-color": "(r:0.57 g:0.17 b:0.53 a:1.00)"
+        }
+    },
+    {
+        "name": "$red",
+        "color": {
+            "r": 177,
+            "g": 14,
+            "b": 30,
+            "a": 1,
+            "color-hex": "#B10E1E 100%",
+            "argb-hex": "#FFB10E1E",
+            "css-rgba": "rgba(177,14,30,1)",
+            "ui-color": "(r:0.69 g:0.05 b:0.12 a:1.00)"
+        }
+    },
+    {
+        "name": "$brown",
+        "color": {
+            "r": 181,
+            "g": 136,
+            "b": 64,
+            "a": 1,
+            "color-hex": "#B58840 100%",
+            "argb-hex": "#FFB58840",
+            "css-rgba": "rgba(181,136,64,1)",
+            "ui-color": "(r:0.71 g:0.53 b:0.25 a:1.00)"
+        }
+    },
+    {
+        "name": "$grass-green",
+        "color": {
+            "r": 133,
+            "g": 153,
+            "b": 75,
+            "a": 1,
+            "color-hex": "#85994B 100%",
+            "argb-hex": "#FF85994B",
+            "css-rgba": "rgba(133,153,75,1)",
+            "ui-color": "(r:0.52 g:0.60 b:0.29 a:1.00)"
+        }
+    },
+    {
+        "name": "$govuk-blue",
+        "color": {
+            "r": 0,
+            "g": 94,
+            "b": 165,
+            "a": 1,
+            "color-hex": "#005EA5 100%",
+            "argb-hex": "#FF005EA5",
+            "css-rgba": "rgba(0,94,165,1)",
+            "ui-color": "(r:0.00 g:0.37 b:0.65 a:1.00)"
+        }
+    },
+    {
+        "name": "$button-colour",
+        "color": {
+            "r": 0,
+            "g": 130,
+            "b": 59,
+            "a": 1,
+            "color-hex": "#00823B 100%",
+            "argb-hex": "#FF00823B",
+            "css-rgba": "rgba(0,130,59,1)",
+            "ui-color": "(r:0.00 g:0.51 b:0.23 a:1.00)"
+        }
+    },
+    {
+        "name": "$green",
+        "color": {
+            "r": 0,
+            "g": 100,
+            "b": 53,
+            "a": 1,
+            "color-hex": "#006435 100%",
+            "argb-hex": "#FF006435",
+            "css-rgba": "rgba(0,100,53,1)",
+            "ui-color": "(r:0.00 g:0.39 b:0.21 a:1.00)"
+        }
+    }
+]

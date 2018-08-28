@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination component: renders does not render if \`perPage\` is >= \`totalCount\` 1`] = `""`;
+
+exports[`Pagination component: renders with correct overrided 1`] = `
+<PaginationBoxView
+  activeClassName="active"
+  breakLabel={
+    <span>
+      ...
+    </span>
+  }
+  containerClassName="pcf-pagination SUT"
+  disableInitialCallback={false}
+  disabledClassName="disabled"
+  forcePage={0}
+  marginPagesDisplayed={1}
+  nextClassName="next"
+  nextLabel="Next"
+  onPageChange={[Function]}
+  pageClassName="pagination-page SUT"
+  pageCount={5}
+  pageLinkClassName=""
+  pageRangeDisplayed={3}
+  previousClassName="previous"
+  previousLabel="Previous"
+/>
+`;
+
+exports[`Pagination component: renders without crashing 1`] = `
+<PaginationBoxView
+  activeClassName="active"
+  breakLabel={
+    <span>
+      ...
+    </span>
+  }
+  containerClassName="pcf-pagination"
+  disableInitialCallback={false}
+  disabledClassName="disabled"
+  forcePage={0}
+  marginPagesDisplayed={2}
+  nextClassName="next"
+  nextLabel="Next"
+  onPageChange={[Function]}
+  pageClassName="pagination-page"
+  pageCount={10}
+  pageLinkClassName=""
+  pageRangeDisplayed={2}
+  previousClassName="previous"
+  previousLabel="Previous"
+/>
+`;

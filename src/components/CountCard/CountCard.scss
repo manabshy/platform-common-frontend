@@ -1,0 +1,38 @@
+.count-card {
+  text-align: center;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.9;
+  }
+
+  .large-number {
+    font-size: 80px;
+    cursor: pointer;
+  }
+
+  input[type="radio"] {
+    visibility: hidden;
+    display: none;
+  }
+
+  .label {
+    height: 30px;
+    line-height: 32px;
+    display: block;
+    font-size: 16px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 0;
+    padding: 0;
+    cursor: pointer;
+    &.secondary {
+      display: inline-block;
+      padding: 0 12px;
+    }
+  }
+
+  .disabled {
+    opacity: 0.5;
+  }
+}

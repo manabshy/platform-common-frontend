@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render correctly 1`] = `
+<div
+  className="dropdown"
+>
+  <button
+    className="button dropdown-button"
+    id="dropdown-button"
+    onClick={[Function]}
+  >
+    Test Title
+  </button>
+  <div
+    className="dropdown-content hidden"
+    id="dropdown-content"
+  >
+    <ul>
+      <li
+        className="dropdown-list"
+        key="0"
+      >
+        <Link
+          replace={false}
+          to="/"
+        >
+          Button 1
+        </Link>
+      </li>
+      <li
+        className="dropdown-list"
+        key="1"
+        onClick={[Function]}
+      >
+        Button2
+      </li>
+      <li
+        className="dropdown-list"
+        key="2"
+      >
+        <Link
+          replace={false}
+          to="/"
+        >
+          Button3 
+        </Link>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`Should render without menu prop 1`] = `
+<div
+  className="dropdown"
+>
+  <button
+    className="button dropdown-button"
+    id="dropdown-button"
+    onClick={[Function]}
+  >
+    Test Title
+  </button>
+  <div
+    className="dropdown-content hidden"
+    id="dropdown-content"
+  >
+    <ul>
+      <li
+        className="dropdown-list"
+        key="0"
+      >
+        Option 1
+      </li>
+    </ul>
+  </div>
+</div>
+`;

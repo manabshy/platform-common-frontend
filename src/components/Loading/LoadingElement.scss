@@ -1,0 +1,53 @@
+@import "../../static/styles/constants/colors";
+
+.loading-element-button {
+  min-width: 100px;
+  height: 40px;
+  opacity: 0.65;
+  background-color: $loading-background;
+  display: inline-block;
+  margin: 5px 5px 5px 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  @media (max-width: 640px) {
+    width: 100%;
+  }
+}
+
+.loading-element-text {
+  display: inline-block;
+  height: 15px;
+  width: 100%;
+  opacity: 0.65;
+  background-color: $loading-background;
+}
+
+.loading-element-paragraph {
+  display: inline-block;
+  height: 15px;
+  width: 80%;
+  opacity: 0.65;
+  background-color: $loading-background;
+}
+
+@keyframes placeHolderShimmer {
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+.animated-background {
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeHolderShimmer;
+  animation-timing-function: linear;
+  background: $loading-background;
+  background: linear-gradient(to right, $grey-4 8%, $grey-3 18%, $grey-4 33%);
+  position: relative;
+}

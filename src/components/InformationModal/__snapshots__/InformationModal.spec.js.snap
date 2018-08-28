@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InformationModal should render correctly 1`] = `
+<div
+  style={
+    Object {
+      "display": "inline",
+    }
+  }
+>
+  <Modal
+    ariaHideApp={false}
+    bodyOpenClassName="ReactModal__Body--open"
+    className="modalClass"
+    closeTimeoutMS={0}
+    contentLabel="Confirmation Modal"
+    isOpen={false}
+    onRequestClose={[Function]}
+    overlayClassName="OverlayClass"
+    parentSelector={[Function]}
+    portalClassName="ReactModalPortal"
+    shouldCloseOnEsc={true}
+    shouldCloseOnOverlayClick={false}
+    shouldFocusAfterRender={true}
+    shouldReturnFocusAfterClose={true}
+  >
+    <div
+      className="modal-body "
+    >
+      <a
+        className="close-modal close-button"
+        href="#"
+        onClick={[Function]}
+      >
+        <i
+          aria-hidden="true"
+          className="fa fa-times"
+        />
+        <span
+          className="sr-only"
+        >
+          Close
+        </span>
+      </a>
+      <div
+        className="heading-medium wraptd"
+      >
+        Information
+      </div>
+      <div
+        className="wraptd"
+      />
+    </div>
+  </Modal>
+</div>
+`;

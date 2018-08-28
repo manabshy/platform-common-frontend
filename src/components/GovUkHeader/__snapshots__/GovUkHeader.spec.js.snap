@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GovUkHeader should render correctly 1`] = `
+<header
+  className="GovUkHeader"
+  id="global-header"
+  role="banner"
+>
+  <div
+    className="header-wrapper"
+  >
+    <SignIn
+      display={false}
+      inline={true}
+    />
+    <div
+      className="header-global"
+    >
+      <div
+        className="header-logo"
+      >
+        <a
+          className="content"
+          href="https://www.gov.uk"
+          id="logo"
+          title="Go to the GOV.UK homepage"
+        >
+          <img
+            alt=""
+            height="32"
+            src="test-file-stub"
+            width="36"
+          />
+          GOV.UK
+        </a>
+      </div>
+    </div>
+    <div
+      className="header-proposition"
+    >
+      <div
+        className="header-link-container"
+      >
+        <Link
+          className="header-link"
+          replace={false}
+          to="/"
+        >
+          ACD Service
+        </Link>
+        <span
+          className="header-menu-link down"
+          onClick={[Function]}
+        >
+          Menu
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+`;

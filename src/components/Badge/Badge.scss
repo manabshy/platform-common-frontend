@@ -1,0 +1,33 @@
+.pcf-badge {
+  background-color: #ccc;
+  color: #0b0c0c;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  line-height: 1.5em;
+
+  &.badge--danger,
+  &.badge--warning,
+  &.badge--info,
+  &.badge--success {
+    color: #fff;
+  }
+
+  // Setup default styles for severity badges
+  &.badge--danger {
+    background-color: #b10e1e;
+  }
+
+  &.badge--warning {
+    background-color: #d93f0b;
+  }
+
+  &.badge--info {
+    background-color: #277cb9;
+  }
+
+  &.badge--success {
+    background-color: #2b856a;
+  }
+}

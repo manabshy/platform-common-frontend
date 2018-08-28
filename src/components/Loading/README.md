@@ -1,0 +1,17 @@
+# Loading
+
+Loading UI feedback
+
+## Status
+
+- [ ] Ready for use (live)
+- [ ] Ready for use (beta)
+- [ ] Broken
+- [x] Unknown
+
+## Test status
+
+- [ ] Well covered
+- [x] Partial
+- [ ] None
+- [ ] Unknown

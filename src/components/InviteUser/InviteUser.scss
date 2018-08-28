@@ -1,0 +1,23 @@
+.invite-user-modal {
+    .close-button {
+        float: none;
+    }
+
+    .modal-body a.close-modal {
+        float: none;
+        width: auto;
+        margin-top: 0;
+        margin-bottom: .8em;
+        text-align: left;
+    }
+
+    .modal-buttons {
+        display: block;
+        font-size: 19px;
+        margin-top: 20px;
+
+        button {
+            float: right;
+        }
+    }
+}

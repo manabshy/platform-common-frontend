@@ -1,0 +1,29 @@
+@import "colours";
+
+.pcf-message {
+  border: 4px solid black;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 15px 10px;
+
+  p {
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 641px) {
+  .message {
+    border: 5px solid black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px 15px 15px;
+  }
+}
+
+.info-summary {
+  border: 5px solid $govuk-blue;
+}

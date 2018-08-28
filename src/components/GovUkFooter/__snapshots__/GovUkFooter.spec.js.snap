@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GovUkFooter should render correctly 1`] = `
+<footer
+  className="group js-footer"
+  id="footer"
+  role="contentinfo"
+>
+  <div
+    className="footer-wrapper"
+  >
+    <div
+      className="footer-meta"
+    >
+      <div
+        className="footer-meta-inner"
+      >
+        <nav>
+          <ul
+            className="menu"
+            id="menu-footer"
+          >
+            <li>
+              <a
+                href="https://www.ncsc.gov.uk/terms-and-conditions"
+                id="footer-terms-and-conditions"
+                target="_blank"
+              >
+                Terms and Conditions
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div
+        className="copyright"
+      >
+        <a
+          href="http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/copyright-and-re-use/crown-copyright/"
+          id="footer-copyright"
+          target="_blank"
+        >
+          © Crown copyright
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+`;

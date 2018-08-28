@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render properly 1`] = `
+<button
+  aria-disabled={false}
+  className="button button--normalised"
+  disabled={false}
+  onClick={[Function]}
+>
+  Default button
+</button>
+`;

@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders checked correctly 1`] = `
+<div
+  className="pcf-checkbox input-group input-group-checkbox"
+>
+  <input
+    checked={true}
+    className="checkbox-input"
+    id="Checkboxid"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="checkbox-label checked"
+    htmlFor="Checkboxid"
+  >
+    <span>
+      label
+    </span>
+  </label>
+</div>
+`;
+
+exports[`renders correctly 1`] = `
+<div
+  className="pcf-checkbox input-group input-group-checkbox"
+>
+  <input
+    checked={false}
+    className="checkbox-input"
+    id="Checkboxid"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="checkbox-label"
+    htmlFor="Checkboxid"
+  >
+    <span>
+      label
+    </span>
+  </label>
+</div>
+`;
+
+exports[`renders with label correctly 1`] = `
+<div
+  className="pcf-checkbox input-group input-group-checkbox"
+>
+  <input
+    checked={false}
+    className="checkbox-input"
+    id="Checkboxid"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="checkbox-label"
+    htmlFor="Checkboxid"
+  >
+    <span>
+      label
+    </span>
+  </label>
+</div>
+`;
+
+exports[`renders without label correctly - despite being required 1`] = `
+<div
+  className="pcf-checkbox input-group input-group-checkbox"
+>
+  <input
+    checked={false}
+    className="checkbox-input"
+    id="Checkboxid"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="checkbox-label"
+    htmlFor="Checkboxid"
+  />
+</div>
+`;

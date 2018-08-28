@@ -1,0 +1,12 @@
+$view-breakpoint-1: 1280px;
+$view-breakpoint-2: 992px;
+$view-breakpoint-3: 768px;
+$view-breakpoint-4: 650px;
+$view-breakpoint-5: 375px;
+
+$content-max-width: 960px;
+$content-min-width: $view-breakpoint-5;
+$content-padding: 15px;
+
+$mobile-breakpoint: $view-breakpoint-5;
+$mobile-width: 640px;

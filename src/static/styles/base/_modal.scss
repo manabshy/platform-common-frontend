@@ -1,0 +1,131 @@
+.modalClass {
+  background: #fff;
+  //padding: 30px;
+  border: 1px solid #0b0c0c;
+  width: 100%;
+  max-width: 640px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1 !important;
+}
+
+.modal-buttons a {
+  line-height: 38px;
+}
+
+.modal-buttons button {
+  float: right;
+  margin: 0;
+}
+
+// modal styling
+.modal-header {
+  border: 0;
+  .close {
+    opacity: 1;
+    color: $govuk_blue;
+    font-size: 16px;
+    font-weight: normal;
+  }
+}
+
+.modal-body {
+  line-height: 1.3em;
+  font-size: 1.9rem;
+  padding: 30px;
+  background-color: #fff;
+  // h1 {
+  //   @extend .heading-large;
+  // }
+  // h2 {
+  //   @extend .heading-medium;
+  // }
+  // h3 {
+  //   @extend .heading-small;
+  // }
+  // h4 {
+  //   @extend .heading-small;
+  // }
+  // h1:first-child {
+  //   margin-top: 1em;
+  // }
+  // ul {
+  //   @extend .list;
+  //   @extend .list-bullet;
+  // }
+}
+.modal-backdrop.in {
+  opacity: 0.9;
+  background: $modal-background-overlay;
+}
+
+.modal-body .heading-medium {
+  margin-top: 0;
+  margin-bottom: 0.8em;
+  float: left;
+  width: 80%;
+}
+
+.modal-body a.close-modal {
+  float: right;
+  margin-top: 0;
+  margin-bottom: 0.8em;
+  text-align: right;
+}
+
+.ReactModal__Body--open {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+//Overwrite Bootstrap modal cursor
+.modal {
+  cursor: default;
+}
+
+.ReactModal__Overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: $modal-background-overlay;
+}
+
+#feedback-modal > div > div > div > div > textarea {
+  width: 100%;
+}
+
+.modal-buttons {
+  display: block;
+  font-size: 19px;
+}
+.modal-buttons a {
+  line-height: 38px;
+}
+.modal-buttons button {
+  float: left;
+  margin-bottom: 2rem;
+
+  @media screen and (max-width: $mobile-width) {
+    margin-bottom: 10px;
+  }
+}
+
+#feedback-modal label {
+  color: #0b0c0c !important;
+}
+
+#feedback-modal p.counter {
+  font-weight: normal;
+  //margin-top: 8px;
+}
+
+.wraptd {
+  margin-top: 5rem;
+}

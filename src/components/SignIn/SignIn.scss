@@ -1,0 +1,74 @@
+@import "../../static/styles/constants/layout";
+@import "../../static/styles/base/layout";
+
+.login {
+  color: white;
+  text-align: right;
+  position: absolute;
+  padding-bottom: 15px;
+
+  @media (min-width: $view-breakpoint-3 + 1) {
+    right: 15px;
+    margin-top: 8px;
+    display: block !important;
+  }
+
+  @media (max-width: $view-breakpoint-3) {
+    bottom: 0;
+    font-size: 14px;
+  }
+
+  @media (max-width: $view-breakpoint-4) {
+    font-size: 12px;
+  }
+
+  span {
+    max-width: 275px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+
+    @media (max-width: $view-breakpoint-2) {
+      max-width: 200px;
+    }
+
+    @media (min-width: $view-breakpoint-3 + 1) {
+      display: block;
+      padding-bottom: 0.3rem;
+      /* max-width: 350px;
+      text-align: right;
+      overflow: hidden;
+      vertical-align: middle;
+      text-overflow: ellipsis; */
+    }
+    margin: 0;
+    padding: 0;
+  }
+
+  .sign-link {
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 15px;
+    text-decoration: underline;
+
+    &.out {
+      margin-left: 10px;
+    }
+  }
+
+  .inline-details {
+    display: inline-block;
+
+    span {
+      @media (min-width: $view-breakpoint-3 + 1) {
+        display: inline-block;
+      }
+    }
+
+    a {
+      display: inline-block;
+      margin: 0 0.3rem;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading element should render properly 1`] = `
+<LoadingElement
+  type="text"
+>
+  <span
+    className="loading-element-text animated-background"
+  />
+</LoadingElement>
+`;
+
+exports[`Loading element should render properly as button element 1`] = `
+<LoadingElement
+  type="button"
+>
+  <span
+    className="loading-element-button animated-background"
+  />
+</LoadingElement>
+`;
+
+exports[`Loading element should render properly as paragraph element 1`] = `
+<LoadingElement
+  type="paragraph"
+>
+  <div>
+    <span
+      className="loading-element-paragraph animated-background"
+    />
+    <span
+      className="loading-element-text animated-background"
+    />
+    <span
+      className="loading-element-text animated-background"
+    />
+  </div>
+</LoadingElement>
+`;

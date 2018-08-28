@@ -1,0 +1,44 @@
+@import "../../static/styles/base/typography/fonts";
+
+.notifications-container {
+  .clear-filter {
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 1.6rem;
+
+    &:visited {
+      color: #005ea5;
+    }
+  }
+
+  .notification-filter-item {
+    padding-left: 27px;
+    font-size: $bold-xsmall-desktop;
+
+    input {
+      float: left;
+      margin-left: -27px;
+    }
+  }
+
+  .notification td > a,
+  .notification-filter {
+    line-height: 1.6rem;
+    cursor: pointer;
+
+    .service-filter-name {
+      display: inline-block;
+      max-width: 100%;
+      word-wrap: break-word;
+      word-break: normal;
+      text-transform: capitalize;
+    }
+
+    &:visited {
+      color: #005ea5;
+    }
+  }
+  .unread-filter {
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render correctly without label 1`] = `
+<div
+  className="pcf-radio-button multiple-choice "
+>
+  <input
+    checked={false}
+    id="test"
+    onChange={[Function]}
+    type="radio"
+  />
+  <label
+    htmlFor="test"
+  >
+    <span>
+      test
+    </span>
+  </label>
+</div>
+`;
+
+exports[`Should render correctly 1`] = `
+<div
+  className="pcf-radio-button multiple-choice "
+>
+  <input
+    checked={false}
+    id="test"
+    name="name"
+    onChange={[Function]}
+    type="radio"
+  />
+  <label
+    htmlFor="test"
+  >
+    <span>
+      test
+    </span>
+  </label>
+</div>
+`;

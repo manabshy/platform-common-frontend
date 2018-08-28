@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders active domain 1`] = `
+<div
+  className="paginator-container"
+>
+  <div
+    className="nextPage"
+    onClick={[Function]}
+  >
+    <div
+      className="wrapper"
+    >
+      <span>
+        Next
+        <div
+          className="page-count"
+        >
+          2
+           of 
+          4
+        </div>
+      </span>
+      <i
+        aria-hidden="true"
+        className="fa fa-angle-right paginator-control"
+        disabled={false}
+      />
+    </div>
+  </div>
+</div>
+`;

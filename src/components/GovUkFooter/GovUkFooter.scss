@@ -1,0 +1,32 @@
+@import '../../static/styles/constants/layout';
+@import "conditionals";
+
+.GovUkFooter {
+    &#footer {
+        .footer-wrapper {
+            max-width: $content-max-width;
+            .version-info {
+                color: #454a4c
+            }
+        }
+    }
+
+}
+.footer-wrapper {
+    .version-info {
+        color: #454a4c;
+        font-size: 1.2rem;
+        @media (max-width: $mobile-breakpoint) {
+              margin: 0 0 10px 0;
+        }
+        @media (min-width: $mobile-breakpoint) {
+            margin-top: -45px;
+        }
+
+
+    }
+}
+
+.footer-meta{
+  padding-bottom: 30px !important;
+}
